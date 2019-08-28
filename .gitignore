@@ -1,3 +1,4 @@
 .vscode
 .spotipycache
 __pycache__/
+*.sqlite3
