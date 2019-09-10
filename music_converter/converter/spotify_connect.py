@@ -90,7 +90,7 @@ class Spotify:
                         result_set.extend(potential_artists)
                         query_set.extend(query_artists)
                     if len(query_set) < len(result_set):
-                        smaller = {} x.lower() for x in query_set }
+                        smaller = { x.lower() for x in query_set }
                         larger = { x.lower() for x in result_set }
                     else:
                         smaller = { x.lower() for x in result_set }
